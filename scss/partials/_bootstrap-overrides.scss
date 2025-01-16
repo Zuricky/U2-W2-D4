@@ -9,6 +9,9 @@
 @import "../../bootstrap/scss/variables-dark";
 
 // Include any default map overrides here
+$danger: #ff0077;
+$info: #00ffea;
+$light: #f3eeff;
 
 // Include remainder of required parts
 @import "../../bootstrap/scss/maps";
@@ -97,7 +100,7 @@
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 0.5rem !important;
+  $gutter-x: 0.5rem !important;
 }
 .card {
   background-color: $dark;
@@ -110,17 +113,11 @@ img {
   border-top-right-radius: 1rem !important;
 }
 
-[data-bs-theme="light"] {
-  --bs-danger: #ff0077;
-  --bs-info: #00ffea;
-  --bs-light: #f3eeff;
-  --bs-border-radius: 0.2rem;
-  --bs-epicode-1: #5726c3;
+$epicode-1: #5726c3;
 
-  --bs-epicode-2: #8625a5;
+$epicode-2: #8625a5;
 
-  --bs-epicode-3: #cb2376;
-}
+$epicode-3: #cb2376;
 
 input,
 button {
