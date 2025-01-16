@@ -102,18 +102,27 @@
 .card {
   background-color: $dark;
   color: $info;
-  border-radius: 2rem !important;
+  border-radius: 1.5rem !important;
 }
+
+img {
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+}
+
 [data-bs-theme="light"] {
   --bs-danger: #ff0077;
-  --bs-danger-rgb: 255, 0, 119;
   --bs-info: #00ffea;
-  --bs-info-rgb: 0, 255, 234;
   --bs-light: #f3eeff;
-  --bs-light-rgb: 243, 238, 255;
   --bs-border-radius: 0.2rem;
+  --bs-epicode-1: #5726c3;
+
+  --bs-epicode-2: #8625a5;
+
+  --bs-epicode-3: #cb2376;
 }
+
 input,
 button {
-  border-radius: 0.2rem !important;
+  border-radius: 3rem !important;
 }
