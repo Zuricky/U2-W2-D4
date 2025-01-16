@@ -1,0 +1,119 @@
+// Custom.scss
+
+@import "../../bootstrap/scss/functions";
+
+// Include any default variable overrides here
+
+// Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../bootstrap/scss/variables";
+@import "../../bootstrap/scss/variables-dark";
+
+// Include any default map overrides here
+
+// Include remainder of required parts
+@import "../../bootstrap/scss/maps";
+@import "../../bootstrap/scss/mixins";
+@import "../../bootstrap/scss/root";
+
+// Optionally include any other parts as needed
+@import "../../bootstrap/scss/utilities";
+@import "../../bootstrap/scss/reboot";
+@import "../../bootstrap/scss/type";
+@import "../../bootstrap/scss/images";
+@import "../../bootstrap/scss/containers";
+@import "../../bootstrap/scss/grid";
+@import "../../bootstrap/scss/tables";
+@import "../../bootstrap/scss/forms";
+@import "../../bootstrap/scss/buttons";
+@import "../../bootstrap/scss/transitions";
+@import "../../bootstrap/scss/dropdown";
+@import "../../bootstrap/scss/button-group";
+@import "../../bootstrap/scss/nav";
+@import "../../bootstrap/scss/navbar";
+@import "../../bootstrap/scss/card";
+@import "../../bootstrap/scss/accordion";
+@import "../../bootstrap/scss/breadcrumb";
+@import "../../bootstrap/scss/pagination";
+@import "../../bootstrap/scss/badge";
+@import "../../bootstrap/scss/alert";
+@import "../../bootstrap/scss/progress";
+@import "../../bootstrap/scss/list-group";
+@import "../../bootstrap/scss/close";
+@import "../../bootstrap/scss/toasts";
+@import "../../bootstrap/scss/modal";
+@import "../../bootstrap/scss/tooltip";
+@import "../../bootstrap/scss/popover";
+@import "../../bootstrap/scss/carousel";
+@import "../../bootstrap/scss/spinners";
+@import "../../bootstrap/scss/offcanvas";
+@import "../../bootstrap/scss/placeholders";
+
+// Helpers
+@import "../../bootstrap/scss/helpers";
+
+// Utilities
+@import "../../bootstrap/scss/utilities/api";
+
+// Add additional custom code here
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+.fs-8 {
+  font-size: 0.5rem !important;
+}
+.fs-9 {
+  font-size: 0.25rem !important;
+}
+.fs-10 {
+  font-size: 0rem !important;
+}
+.border-6 {
+  border-width: 6px !important;
+}
+.border-7 {
+  border-width: 7px !important;
+}
+.border-8 {
+  border-width: 8px !important;
+}
+.border-9 {
+  border-width: 9px !important;
+}
+.border-10 {
+  border-width: 10px !important;
+}
+.px-6 {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+.py-6 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 0.5rem !important;
+}
+.card {
+  background-color: $dark;
+  color: $info;
+  border-radius: 2rem !important;
+}
+[data-bs-theme="light"] {
+  --bs-danger: #ff0077;
+  --bs-danger-rgb: 255, 0, 119;
+  --bs-info: #00ffea;
+  --bs-info-rgb: 0, 255, 234;
+  --bs-light: #f3eeff;
+  --bs-light-rgb: 243, 238, 255;
+  --bs-border-radius: 0.2rem;
+}
+input,
+button {
+  border-radius: 0.2rem !important;
+}
